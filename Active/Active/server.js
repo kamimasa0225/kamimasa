@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // 정적 파일 제공
-app.use(express.static(path.join(dirname, '../ACTIVE')));
+app.use(express.static(path.join(dirname, '../Active')));
 
 // 기본 라우트
 app.get('/', (req, res) => {
